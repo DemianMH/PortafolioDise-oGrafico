@@ -1,0 +1,117 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+font-family: Arial, sans-serif, Helvetica;
+background: #e8e8e8;
+
+}
+
+.menu{
+background: rgb(7, 11, 26);
+list-style: none;
+padding: 0;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+position: fixed;
+}
+
+.menu li {
+float: right;
+text-align: center;
+}
+
+.menu li a {
+  color: #e8e8e8;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  transition: .2
+
+}
+.menu li a:hover{
+  background: #0D0D0D;
+  font-size: 20px;
+}
+
+.Dgimg img{
+	width: 100%;
+}
+
+.Dgtxt h2{
+	position: absolute;
+	top:500px;
+	font-family: fantasy;
+	font-size: 100px;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+.F1{
+	position: absolute;
+	top:300px;
+	left: 1100px;
+
+}
+.F1 :hover{
+	transition-property: opacity, transform;
+  transition-duration: 1s, 1s;
+	opacity: 0.7;
+	transform:rotate(90deg);
+}
+
+
+.Wdimg img{
+	width: 100%;
+}
+
+.Wdtxt h3{
+	position: absolute;
+	top:1200px;
+	font-family: fantasy;
+	font-size: 100px;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.F2{
+	position: absolute;
+	top:1000px;
+	left: 1100px;
+}
+.F2 :hover{
+	transition-property: opacity, transform;
+  transition-duration: 1s, 1s;
+	opacity: 0.7;
+	transform:rotate(90deg);
+}
+
+.Avimg img{
+	width: 100%;
+}
+.Avtxt h4{
+	position: absolute;
+	top:2100px;
+	font-family: fantasy;
+	font-size: 100px;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.F3{
+	position: absolute;
+	top:1800px;
+	left: 1100px;
+}
+.F3 :hover{
+	transition-property: opacity, transform;
+	transition-duration: 1s, 1s;
+	opacity: 0.7;
+	transform:rotate(90deg);
+}
