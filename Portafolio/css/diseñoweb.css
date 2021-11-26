@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body  {
+  font-family: Arial, sans-serif, Helvetica;
+  background:  url('../imagenes/fondodiseño.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.ContenedorPadre{
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+header {
+  width: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-direction:row-reverse;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+header .menu a{
+  color: #fff;
+	text-decoration: none;
+	margin-right:40px;
+	font-size: 20px;
+
+}
+header .menu a:hover{
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+header .logodesingfera img{  width: 10%; }
+header .logodesingfera h1 { font-family: Arial, sans-serif, Helvetica; color: #fff;}
+
+.Main img{
+  width: 45%;
+}
